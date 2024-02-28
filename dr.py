@@ -7,7 +7,7 @@ pygame.mixer.init()
 sound = pygame.mixer.Sound('smash.wav')  
 
 # Initialize camera
-cap = cv2.VideoCapture(0)  # Use 0 for default camera, adjust if needed
+cap = cv2.VideoCapture(0)  # Use 0 for default camera
 
 # Define theex region where you want to trigger the sound
 region_x, region_y, region_width, region_height = 100, 100, 200, 200
